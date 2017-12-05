@@ -24,5 +24,19 @@ public class shop extends AppCompatActivity {
                 startActivity(toy1);
             }
         });
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent toy2=new Intent(shop.this,Medical.class);
+                startActivity(toy2);
+            }
+        });
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent toy3=new Intent(shop.this,Footwear.class);
+                startActivity(toy3);
+            }
+        });
     }
 }
