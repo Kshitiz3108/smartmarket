@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "893051138230",
+    "firebase_url": "https://smartmarket-bfd7b.firebaseio.com",
+    "project_id": "smartmarket-bfd7b",
+    "storage_bucket": "smartmarket-bfd7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893051138230:android:be658769fbc57654",
+        "android_client_info": {
+          "package_name": "app.com.smartmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893051138230-dqhvskrnp88geq61hgpk7vb3qjih121s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.com.smartmarket",
+            "certificate_hash": "96990869075cc4bf2ecb432a3c5ce9c13df6b9ba"
+          }
+        },
+        {
+          "client_id": "893051138230-cjfb86dvef16ogkt8iabn8cmqhcljeot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxN8E77aEbYzgoQQOCcW4tKwx5zKT0cOY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893051138230-cjfb86dvef16ogkt8iabn8cmqhcljeot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

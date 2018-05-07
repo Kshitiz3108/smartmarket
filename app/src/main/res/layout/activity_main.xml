@@ -1,50 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="app.com.smartmarket.MainActivity"
-    android:background="@drawable/bground">
+    android:fitsSystemWindows="true"
+    tools:context="app.com.smartmarket.MainActivity">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
- <LinearLayout
-     android:paddingTop="150dp"
-     android:layout_width="match_parent"
-     android:layout_height="match_parent"
-     android:orientation="vertical">
+        <include layout="@layout/toolbar" />
 
-     <EditText
-         android:id="@+id/username"
-         android:layout_width="300dp"
-         android:layout_height="60dp"
-         android:layout_gravity="center"
-         android:background="@drawable/edittextstyle"
-         android:hint="Username"
-         android:textColor="#fff"
-         android:textColorHint="#fff" />
+    </android.support.design.widget.AppBarLayout>
 
-     <EditText
-         android:inputType="textPassword"
-         android:id="@+id/password"
-         android:layout_width="300dp"
-         android:layout_height="60dp"
-         android:layout_gravity="center"
-         android:layout_marginTop="10dp"
-         android:background="@drawable/edittextstyle"
-         android:hint="Password (Optional)"
-         android:textColor="#fff"
-         android:textColorHint="#fff" />
+    <LinearLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/animation_list"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:id="@+id/linearLayout">
 
-     <Button
-         android:id="@+id/button"
-         android:layout_width="match_parent"
-         android:layout_height="60dp"
-         android:layout_marginTop="10dp"
-         android:background="@drawable/buttonstyleselector"
-         android:text="Login or register"
-         android:textColor="#fff" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:text="Login"
+            android:textSize="25sp"/>
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
- </LinearLayout>
-</android.support.constraint.ConstraintLayout>
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:imeOptions="actionNext"
+                android:textColor="@color/input_login"
+                android:textColorHint="@color/input_login_hint" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:imeOptions="actionDone"
+                android:textColor="@color/input_login"
+                android:textColorHint="@color/input_login_hint" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_register"
+            android:text="@string/btn_login"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_reset_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:text="@string/btn_forgot_password"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_login_register" />
+
+        <!-- Link to Sign up Screen -->
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@null"
+            android:text="@string/btn_link_to_register"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_register"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone" />
+</android.support.design.widget.CoordinatorLayout>

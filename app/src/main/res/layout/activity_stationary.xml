@@ -1,55 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="app.com.smartmarket.Stationary">
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <Button
+            android:id="@+id/stationary1"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="stationary1"/>
+            android:text="stationary1" />
+
         <Button
+            android:id="@+id/stationary2"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="stationary2"/>
+            android:text="stationary2" />
         <Button
+            android:id="@+id/stationary3"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="stationary3"/>
+
         <Button
+            android:id="@+id/stationary4"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="stationary4"/>
+
         <Button
+            android:id="@+id/stationary5"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="stationary5"/>
+
         <Button
+            android:id="@+id/stationary6"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="stationary6"/>
+
         <Button
+            android:id="@+id/stationary7"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="stationary7"/>
         <Button
+            android:id="@+id/stationary8"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="stationary8"/>
         <Button
+            android:id="@+id/stationary9"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="stationary9"/>
 
     </LinearLayout>
 </ScrollView>
-</android.support.constraint.ConstraintLayout>
