@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="app.com.smartmarket.Medical">
+    tools:context="app.com.smartmarket.FoodBeve">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,43 +12,51 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/medical1"
+            android:id="@+id/Food1"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 1"/>
+            android:text="Food and Beverage 1"/>
         <Button
-            android:id="@+id/medical2"
+            android:id="@+id/Food2"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 2"/>
+            android:text="Food and Beverage 2"/>
         <Button
+            android:id="@+id/Food3"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 3"/>
+            android:text="Food and Beverage 3"/>
         <Button
+            android:id="@+id/Food4"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 4"/>
+            android:text="Food and Beverage 4"/>
         <Button
+            android:id="@+id/Food5"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 5"/>
+            android:text="Food and Beverage 5"/>
         <Button
+            android:id="@+id/Food6"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 6" />
+            android:text="Food and Beverage 6"/>
         <Button
+            android:id="@+id/Food7"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 7"/>
+            android:text="Food and Beverage 7"/>
         <Button
+            android:id="@+id/Food8"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 8"/>
+            android:text="Food and Beverage 8"/>
         <Button
+            android:id="@+id/Food9"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 9"/>
+            android:text="Food and Beverage 9"/>
+
 
     </LinearLayout>
 </ScrollView>

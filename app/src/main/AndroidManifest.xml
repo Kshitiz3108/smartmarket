@@ -32,7 +32,10 @@
         <activity android:name=".SignupActivity" />
         <activity android:name=".Profile" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".ForgotPassword"></activity>
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".FoodBeve" />
+        <activity android:name=".beauty" />
+        <activity android:name=".Garment"></activity>
     </application>
 
 </manifest>

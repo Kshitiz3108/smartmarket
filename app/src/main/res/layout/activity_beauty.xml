@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="app.com.smartmarket.Medical">
+    tools:context="app.com.smartmarket.beauty">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,43 +12,51 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/medical1"
+            android:id="@+id/Beauty1"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 1"/>
+            android:text="Beauty Service 1"/>
         <Button
-            android:id="@+id/medical2"
+            android:id="@+id/Beauty2"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 2"/>
+            android:text="Beauty Service 2"/>
         <Button
+            android:id="@+id/Beauty3"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 3"/>
+            android:text="Beauty Service 3"/>
         <Button
+            android:id="@+id/Beauty4"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 4"/>
+            android:text="Beauty Service 4"/>
         <Button
+            android:id="@+id/Beauty5"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 5"/>
+            android:text="Beauty Service 5"/>
         <Button
+            android:id="@+id/Beauty6"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 6" />
+            android:text="Beauty Service 6"/>
         <Button
+            android:id="@+id/Beauty7"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 7"/>
+            android:text="Beauty Service 7"/>
         <Button
+            android:id="@+id/Beauty8"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 8"/>
+            android:text="Beauty Service 8"/>
         <Button
+            android:id="@+id/Beauty9"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="medical shop 9"/>
+            android:text="Beauty Service 9"/>
+
 
     </LinearLayout>
 </ScrollView>

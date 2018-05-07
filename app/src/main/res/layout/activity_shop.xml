@@ -56,6 +56,8 @@
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp"
+                android:clickable="true"
+                android:onClick="Stationar"
                 >
 
                 <LinearLayout
@@ -139,6 +141,8 @@
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp"
+                android:clickable="true"
+                android:onClick="medica"
                 >
 
                 <LinearLayout
@@ -178,6 +182,8 @@
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp"
+                android:clickable="true"
+                android:onClick="FoodBev"
                 >
 
                 <LinearLayout
@@ -220,6 +226,8 @@
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp"
+                android:clickable="true"
+                android:onClick="BeautySe"
                 >
 
                 <LinearLayout
@@ -259,6 +267,8 @@
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp"
+                android:clickable="true"
+                android:onClick="Garmen"
                 >
 
                 <LinearLayout

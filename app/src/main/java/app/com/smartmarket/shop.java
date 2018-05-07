@@ -29,4 +29,18 @@ public class shop extends AppCompatActivity {
         Intent myIntent=new Intent(shop.this,Stationary.class);
         startActivity(myIntent);
     }
+
+    public void FoodBev (View view){
+        Intent myIntent=new Intent(shop.this,FoodBeve.class);
+        startActivity(myIntent);
+    }
+    public void BeautySe (View view){
+        Intent myIntent=new Intent(shop.this,beauty.class);
+        startActivity(myIntent);
+    }
+
+    public void Garmen (View view){
+        Intent myIntent=new Intent(shop.this,Garment.class);
+        startActivity(myIntent);
+    }
 }
